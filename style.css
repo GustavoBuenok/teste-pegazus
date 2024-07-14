@@ -1,0 +1,344 @@
+/*#1A9047 - verde escuro
+#2BC866 - verde claro
+#004AAD - azul
+Helvetica Neue Bold
+
+Helvetica
+
+
+*/
+
+/*ESTILO CORPO DO PROJETO */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* ESTILO BARRA DE NAVEÇÃO */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%; 
+
+}
+
+.titulo-logo {
+    font-size: 24px;
+    color: #004AAD;
+}
+
+.itens-de-navegacao {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.itens-de-navegacao li {
+    margin-right: 20px;
+}
+
+.itens-de-navegacao a {
+    text-decoration: none;
+    color: #004AAD;
+}
+
+.itens-de-navegacao a:hover {
+    text-decoration: underline;
+}
+
+.botoes {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botoes button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botoes button:first-child {
+    background-color: #fff;
+    color: #2BC866;
+    border: 1px solid #ddd;
+}   
+
+.botoes button:last-child {
+    background-color: #1A9047;
+    color: #fff;
+}    
+
+.botoes button:hover {
+    opacity: 0.8;
+}
+
+/* ESTILO INICIO DA PAGINA */
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-main{
+    margin-top: 100px;
+    font-size: 35px;
+    color: #2BC866;
+}
+
+.subtitulo-main{
+    font-size: 18px;
+}
+
+/*ESTILO DESCRICOES DOS SERVIÇOS*/
+
+.descricoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.container-descricoes {
+    width: 22%;
+    text-align: center;
+}
+
+.container-descricoes img {
+    height: 200px;
+}
+
+.cta {
+    margin-top: 40px;
+}
+
+.titulo-descricoes{
+    color: #2BC866;
+}
+
+.texto-descricoes{
+    font-size: 13px;
+}
+
+.cta p {
+    color: #2BC866;
+    font-size: 30px;
+
+    margin-bottom: 20px;
+}
+
+.cadastre-se-cta {
+    background-color: #2BC866;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cadastre-se-cta:hover{
+    opacity: 0.8;
+}
+
+/*ESTILO SEÇÃO AJUDA*/
+.help-section {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.help-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.help-header img {
+    width: 400px;
+    margin-right: 20px;
+}
+
+.help-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.titulo-help {
+    color: #28a745;
+    font-size: 35px;
+}
+
+.help-header p {
+    font-size: 18px;
+    color: #666;
+    
+}
+
+.help-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+.card {
+    width: 200px;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid #28a745;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+
+.card h2 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #2BC866;
+}
+
+.card h2 img {
+    margin-bottom: 10px;
+    width: 24px;
+}
+
+.card p {
+    color: #333;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+
+/*ESTILO SEÇÃO PARCEIROS */
+.parceiros{
+    
+    width: 100%;
+    background-color:#2BC866;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-parceiros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    text-align: left;
+}
+
+.container-esquerdo{
+    max-width: 600px;
+}
+
+.titulo-parceiros{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.texto-parceiros{
+    margin-top: 10px;
+    font-size:18px;
+    line-height: 1.6
+}
+
+.logos{
+    margin-top: 10px;
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid #28a745;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.parceiros-image{
+    width: 400px;
+}
+
+
+/* ESTILO ULTIMA SEÇÃO */
+.final-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.final-section h2 {
+    font-size: 2em;
+    color: #2BC866;
+}
+
+.rastrear{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rastrear input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.rastrear button {
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.rastrear button:hover {
+    background-color: #34495e;
+}
+
+.imagem-final {
+    margin-top: 80px;
+}
+
+.imagem-final img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
